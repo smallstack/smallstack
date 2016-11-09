@@ -27,7 +27,9 @@ Inside your smallstack project create a file  called /client/components/hellodav
 ```
 <div>Hello {{name}}</div>
 ```
-2. Create a controller class named /client/components/hellodave/hellodave.ts and add the business logic, for example: 
+
+#### Controller Class
+Create a controller class named /client/components/hellodave/hellodave.ts and add the business logic, for example: 
 ```
 class HelloDaveComponentController extends AngularBaseComponentController implements InitializationAware {
 
@@ -45,3 +47,6 @@ AngularComponent.new("helloDave")
     .addConfiguration(ComponentConfiguration.createStringConfiguration("name", "Dave"))
     .create();
 ```
+
+#### Run the example component
+Since meteor automatically picks up all files this is all we have to do. After you compiled the source file with ```smallstack compile``` you should be able to see the component in the page builder. If you just want to display the component you can adjust an html file by adding ```<hello-dave></hello-dave>``` since components that are written in Angular 1 are actually just Angular Directives.
