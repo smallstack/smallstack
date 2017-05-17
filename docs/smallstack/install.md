@@ -7,11 +7,8 @@ We recommend to install the current LTS version of node and the related npm vers
 ## Meteor 
 See https://guide.meteor.com/#quickstart
 
-# Global NPM Packages
-The following node packages need to be installed globally. You probably need to install them with administration rights.
-- npm install -g mgp
-- npm install -g typings
-- npm install -g typescript
+# CLI Tool
+Please install our opensource command line tool. You probably need to install it with administration rights.
 - npm install -g smallstack-cli
 
 
