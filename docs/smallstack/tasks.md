@@ -12,4 +12,4 @@ Task Executions are stored next to the tasks in your MongoDB. You can view them 
 smallstack cronjobs are built upon our tasks system. Every execution of a cronjob will result in a new task execution object. Be aware of that creating cronjobs requires the same role as the to be executed task!
 
 ### A note about clusters
-To avoid that many nodes execute the same cronjob simultaniously, you have to pick one node and set the environment variable CRONJOB_SCHEDULING to true, even in a one node system. This node then executes all cronjobs for you. If you have a lot of work to do it might make sense to start a dedicated node for cronjobs. If you are looking for different options, don't hesitate to ask for support!
+Cronjobs are being executed randomly accross all nodes. To avoid cronjob executions on a node please set the environment variable CRONJOB_SCHEDULING to false. If you have a lot of work to do it might make sense to start dedicated noden for cronjobs only by setting all others to CRONJOB_SCHEDULING=false. If you are looking for different options, don't hesitate to ask for support!
