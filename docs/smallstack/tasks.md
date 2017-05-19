@@ -1,5 +1,8 @@
 # Tasks
-In smallstack, "tasks" are repeatable chunks of source code with a friendly name. They can be executed manually via the "Tasks Backoffice" or via the "TaskRegistry" in your source code. An execution of a task leads to a "Task Execution" instance which holds all data being used for the execution as well as logs and some audit stuff. Tasks have full access to all smallstack services and all data. Tasks can be run concurrent or explicitly sequential.
+In smallstack, "tasks" are repeatable chunks of source code with a friendly name. They can be executed manually via the "Tasks Backoffice" or via the "TaskRegistry" in your source code. An execution of a task leads to a "Task Execution" instance which holds all data being used for the execution as well as logs and some audit stuff. 
+
+Tasks have full access to all smallstack services and all data. Tasks can be run concurrent or explicitly sequential.
+
 Each task can define a required user role which will be checked upon execution.
 
 # Task Execution
