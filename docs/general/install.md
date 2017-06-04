@@ -16,7 +16,9 @@ See https://guide.meteor.com/#quickstart
 
 #### CLI Tool
 Please install our opensource command line tool. You probably need to install it with administration rights:
-- npm install -g smallstack-cli
+```
+npm install -g smallstack-cli
+```
 
 
 ## Setup
