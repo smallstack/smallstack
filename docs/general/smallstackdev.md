@@ -15,7 +15,10 @@ The stack itself doesn't run without a project. So either you use an already cre
 In a workspace directory, lets call it \home\users\max\ws, the easiest way to work with several smallstack projects and the framework together is, to put them all on the same level, e.g.:
 
 \home\users\max\ws\smallstack
+
 \home\users\max\ws\project-cuppy
+
 \home\users\max\ws\project-urbanpacman
+
 
 That way, most of the times, you can just hit "enter" in the CLI if you get asked for relative paths.
