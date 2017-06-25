@@ -1,5 +1,5 @@
 # How-to run a smallstack project
-If you have installed all dependencies and did the smallstack setup dance, you can now start the project. The first time it feels like downloading half of the internet due a lot of npm dependencies, but the second time it will be blazing fast already. This is normally done by 
+If you have installed all dependencies and did the smallstack setup dance, you can now start the project. The first time it feels like downloading half of the internet due a lot of npm dependencies, but the second time it will be blazing fast already.
 
 ## A note about the local smallstack checkout mode
 If you have a local checkout of smallstack, you first need to initially bundle the framework:
