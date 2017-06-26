@@ -5,7 +5,7 @@ A smallstack type defines a collection of objects in a NoSQL database. It is sto
 Of course not. For almost all data commonly used in web projects they come in handy since they are generated, well tested and so easy to use. Sometimes it makes sense, sometimes not. Just create some types, extend them and see how you can use them. If you find it useful, use it, otherwise you can also use your own way of defining collections and how to deal with the data.
 
 # How-to create a type
-smallstack types are defined in json files. To be able to use them on both the server and the client the files should be stored in a shared folder. We normally use a location like meteor/shared/types. A typical type can look like this: 
+smallstack types are defined in json files. They are stored in {PROJECT_ROOT}\datalayer\types. A typical type can look like this: 
 
 ```
 {
