@@ -61,7 +61,7 @@ smallstack types are defined in json files. They are stored in {PROJECT_ROOT}\da
 You can localize a type by following this convention:
 
 ```
-models.{{lower case model name}}.{{lower case schema field name}}.label
+models.{{lower case model name}}.{{lower case schema field name}}.label|helptext|placeholder
 ```
 
 So if you would like to localize the competition name from above, you could do:
@@ -70,7 +70,9 @@ LocalizationService.instance().addTranslation(["en", "de"], {
     models: {
         competition: {
             name: {
-                label: ["Competition", "Wettbewerb"]
+                label: ["Competition", "Wettbewerb"],
+		helptext: ["This is the name of your competition!", "Dies ist der Name deines Wettbewerbs!"],
+		placeholder: ["A catchy name!", "Ein einprägsamer Name!"]
             }
         }
     }
