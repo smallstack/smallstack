@@ -11,6 +11,9 @@ In order to compile, use or deploy a smallstack itself or a smallstack project y
 #### Node & NPM
 We recommend to install the current LTS version of node and the related npm version. Instructions can be found here: https://nodejs.org
 
+##### A note on NPM5
+Until most issues are resolved regarding the new package-lock.json file we cannot recommend to switch to NPM5.
+
 #### Meteor 
 See https://guide.meteor.com/#quickstart
 
