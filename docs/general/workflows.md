@@ -10,7 +10,7 @@ A workflow has events, conditions and actions attached. If a specific event is f
 // Action
 export class ConsoleGreetingAction extends WorkflowAction {
     public execute(): void {
-        Logger.info("ConsoleGreetingAction", "Hi!");
+        Logger.info("ConsoleGreeting", "This is a greeting message from the brand new workflow engine! See https://github.com/smallstack/smallstack/blob/master/docs/general/workflows.md for more details!");
     }
 }
 
