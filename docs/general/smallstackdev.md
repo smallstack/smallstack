@@ -3,7 +3,7 @@
 The stack itself doesn't run without a project. So either you use an already created project like https://github.com/smallstack/project-cocktailbar or you create an empty one as described here: https://github.com/smallstack/smallstack/blob/master/docs/general/projectcreation.md (not recommended right now).
 
 1. Install all prerequisites, see https://github.com/smallstack/smallstack/blob/master/docs/general/install.md
-2. Checkout the smallstack repository from https://maxfriedmann@bitbucket.org/smallstack/smallstack.git
+2. Checkout the smallstack repository from https://bitbucket.org/smallstack/smallstack.git
 3. Call `smallstack setup` in the root folder of your smallstack framework checkout
 4. Call `smallstack generate` in the root folder to generate all sources
 5. Call `smallstack watch` to watch all changes
