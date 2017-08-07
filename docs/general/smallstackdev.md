@@ -1,6 +1,6 @@
 # How-to develop on the smallstack stack
 
-The stack itself doesn't run without a project. So either you use an already created project like https://github.com/smallstack/project-cuppy or you create an empty one as described here: https://github.com/smallstack/smallstack/blob/master/docs/general/projectcreation.md
+The stack itself doesn't run without a project. So either you use an already created project like https://github.com/smallstack/project-cocktailbar or you create an empty one as described here: https://github.com/smallstack/smallstack/blob/master/docs/general/projectcreation.md (not recommended right now).
 
 1. Install all prerequisites, see https://github.com/smallstack/smallstack/blob/master/docs/general/install.md
 2. Checkout the smallstack repository from https://maxfriedmann@bitbucket.org/smallstack/smallstack.git
