@@ -6,6 +6,7 @@ In any git tool of your choice, for example Sourcetree, you should:
 * merge all finished feature branches to your develop branch
 * check version you want to deploy (smallstack gitflow --toVersion=0.7.0)
 * then start a new release with Git Flow -> Start new Release. You have to give a version number or tag. 
+* on a project release, you have to edit the package.json with the new smallstack version.
 * do the same with finish current release. 
 * on the master branch, you should push all merge commits. 
 
